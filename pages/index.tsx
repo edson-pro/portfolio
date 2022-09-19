@@ -93,9 +93,10 @@ const Home: NextPage = () => {
                     );
                   },
                 },
-              ].map((e) => {
+              ].map((e, index) => {
                 return (
                   <a
+                    key={index}
                     href=""
                     className="bg-gray-100 p-2 mx-1 cursor-pointer rounded-sm"
                   >
@@ -131,9 +132,10 @@ const Home: NextPage = () => {
           <h4 className="font-bold text-lg">Who am i?</h4>
           <div className="text-sm font-semibold text-gray-500 leading-7 my-3">
             <p>
-              I'm Creative Director and UI/UX Designer from Sydney, Australia,
-              working in web development and print media. I enjoy turning
-              complex problems into simple, beautiful and intuitive designs.
+              I&apos;m Creative Director and UI/UX Designer from Sydney,
+              Australia, working in web development and print media. I enjoy
+              turning complex problems into simple, beautiful and intuitive
+              designs.
             </p>
             <p>
               My aim is to bring across your message and identity in the most
@@ -234,9 +236,9 @@ const Home: NextPage = () => {
                 },
                 subtitle: "febuary 16,2000",
               },
-            ].map((e) => {
+            ].map((e, index) => {
               return (
-                <div className="flex items-center">
+                <div key={index} className="flex items-center">
                   <span
                     style={{ background: e.color + "33" }}
                     className={`h-9 w-9 flex items-center justify-center rounded-[4px]`}
