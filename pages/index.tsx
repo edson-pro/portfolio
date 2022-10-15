@@ -132,17 +132,9 @@ const Home: NextPage = () => {
           <h4 className="font-bold text-lg">Who am i?</h4>
           <div className="text-sm font-semibold text-gray-500 leading-7 my-3">
             <p>
-              I&apos;m Creative Director and UI/UX Designer from Sydney,
-              Australia, working in web development and print media. I enjoy
-              turning complex problems into simple, beautiful and intuitive
-              designs.
+            Hard-working web developer with a flair for creating elegant solutions in the least amount of time with javascript.
             </p>
-            <p>
-              My aim is to bring across your message and identity in the most
-              creative way. I created web design for many famous brand
-              companies.Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit, sed do eiusmod tempor
-            </p>
+           
           </div>
           <h4 className="font-bold mt-4 text-[15px]">Personal Info</h4>
           <div className="grid grid-cols-2 gap-4 mt-4">
@@ -167,7 +159,7 @@ const Home: NextPage = () => {
                     </svg>
                   );
                 },
-                subtitle: "+123 456 7890",
+                subtitle: "0788209629
               },
               {
                 color: "#fd7590",
