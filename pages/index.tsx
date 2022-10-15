@@ -159,7 +159,7 @@ const Home: NextPage = () => {
                     </svg>
                   );
                 },
-                subtitle: "0788209629
+                subtitle: "0788209629"
               },
               {
                 color: "#fd7590",
