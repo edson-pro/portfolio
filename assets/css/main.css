@@ -6,6 +6,9 @@ body {
   @apply bg-gray-900 overflow-y-hidden;
 }
 
+html {
+  color-scheme: dark;
+}
 @font-face {
   font-family: "Spacegrotesk";
   src: url("https://assets.website-files.com/622fbc5a718ac3417fcd3d75/622fc8f87fd5f314f8fc8126_SpaceGrotesk-Medium.woff")
@@ -218,5 +221,125 @@ mark.mark {
   }
   to {
     margin-left: 2rem;
+  }
+}
+
+@keyframes scroll-14329d3f {
+  0% {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translate(calc(-200px * 7));
+  }
+}
+
+.slider[data-v-14329d3f] {
+  height: 120px;
+  margin: auto;
+  position: relative;
+  width: 960px;
+}
+
+.slider[data-v-14329d3f]:after {
+  right: 0;
+  top: 0;
+  transform: rotate(180deg);
+}
+
+.slider[data-v-14329d3f]:before {
+  left: 0;
+  top: 0;
+}
+
+.animation[data-v-14329d3f] {
+  animation: scroll-14329d3f 30s linear infinite;
+}
+
+.slide-track[data-v-14329d3f]:hover {
+  animation-play-state: paused;
+}
+
+.slide-track:hover .slide[data-v-14329d3f] {
+  animation-play-state: running;
+}
+
+.animation-reverse[data-v-14329d3f] {
+  animation: scroll-14329d3f 30s linear infinite reverse;
+}
+
+.slider .slide-track[data-v-14329d3f] {
+  display: flex;
+  width: calc(200px * (7 * 2));
+}
+
+.slider .slide[data-v-14329d3f] {
+  height: 100px;
+  width: 200px;
+}
+
+.slide:hover .gradient-border[data-v-14329d3f] {
+  animation: gradient-rotate-14329d3f 5s linear 0s infinite reverse;
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+
+.tag:hover .gradient-border[data-v-14329d3f] {
+  animation: gradient-rotate-14329d3f 5s linear 0s infinite reverse;
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+.gradient-border[data-v-14329d3f] {
+  background-size: 600% 600%;
+  border-radius: 4px;
+  height: calc(100% + 3px);
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: translate(-1px, -1px);
+  width: calc(100% + 3px);
+  z-index: -1;
+}
+
+.gradient-border-light[data-v-14329d3f] {
+  background: linear-gradient(
+    var(--gradient-angle),
+    #00dc82,
+    #fff,
+    rgba(54, 228, 218, 0.7),
+    rgba(29, 224, 177, 0.3)
+  );
+}
+
+.gradient-border-dark[data-v-14329d3f] {
+  background: linear-gradient(
+    var(--gradient-angle),
+    hsla(0, 0%, 100%, 0.5),
+    hsla(0, 0%, 100%, 0.1),
+    #fff,
+    hsla(0, 0%, 100%, 0.3)
+  );
+}
+
+li:hover .gradient-border[data-v-14329d3f] {
+  animation: gradient-rotate-14329d3f 5s linear 0s infinite reverse;
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+
+@property --gradient-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 1turn;
+}
+
+@keyframes gradient-rotate-14329d3f {
+  0% {
+    --gradient-angle: 360deg;
+  }
+
+  to {
+    --gradient-angle: 0deg;
   }
 }

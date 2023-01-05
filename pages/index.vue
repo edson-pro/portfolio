@@ -238,7 +238,7 @@
         <div class="px-10 h-screen py-28 w-full">
           <div class="w-full">
             <div class="w-full flex items-center gap-4">
-              <span class="text-green-500 font-semibold text-lg">01.</span>
+              <span class="text-green-500 font-semibold text-lg">02.</span>
               <span class="font-semibold text-white text-xl truncate"
                 >My skills</span
               >
@@ -247,7 +247,8 @@
             <div class="my-10">
               <div class="flex items-center flex-wrap gap-6">
                 <div
-                  class="px-5 py-3 border-gray-700 cursor-pointer text-gray-200 rounded-[3px] hover:bg-gray-800 bg-opacity-50 border bogr"
+                  data-v-14329d3f=""
+                  class="px-5 tag hover:border-0 py-3 relative border-gray-700 cursor-pointer text-gray-200 rounded-[3px] hover:bg-gray-800 bg-opacity-50 border bogr"
                   v-for="skill in [
                     'UI Design',
                     'UX Design',
@@ -267,7 +268,128 @@
                     'User Interviews',
                   ]"
                 >
+                  <div
+                    class="gradient-border gradient-border-dark block"
+                    data-v-14329d3f=""
+                  ></div>
                   <span>{{ skill }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="h-screen">
+        <div class="px-10 h-screen py-28 w-full">
+          <div class="w-full">
+            <div class="w-full flex items-center gap-4">
+              <span class="text-green-500 font-semibold text-lg">03.</span>
+              <span class="font-semibold text-white text-xl truncate"
+                >Technologies used by me.</span
+              >
+              <span class="w-1/3 bg-gray-700 h-[1px]"></span>
+            </div>
+            <div class="my-14">
+              <div class="overflow-hidden" data-v-14329d3f="">
+                <div class="slider" data-v-14329d3f="">
+                  <div class="animation slide-track mb-8" data-v-14329d3f="">
+                    <!--[-->
+                    <div
+                      v-for="tech in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+                      class="slide"
+                      data-v-14329d3f=""
+                    >
+                      <a
+                        href="/modules/tailwindcss"
+                        class="relative flex items-center justify-center bg-gray-800 h-[86px] w-[86px] rounded-md ring-1 ring-gray-200 hover:ring-0 dark:ring-0 mt-1"
+                        tabindex="-1"
+                        data-v-14329d3f=""
+                      >
+                        <div
+                          class="gradient-border gradient-border-dark block"
+                          data-v-14329d3f=""
+                        ></div>
+                        <div data-v-14329d3f="">
+                          <img
+                            src="https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/icons/tailwindcss.png"
+                            alt="tailwindcss"
+                            class="w-auto h-8 sm:h-12"
+                            loading="lazy"
+                          />
+                        </div>
+                      </a>
+                    </div>
+
+                    <!--]-->
+                  </div>
+                </div>
+                <div class="slider" data-v-14329d3f="">
+                  <div
+                    class="animation-reverse slide-track mb-8"
+                    data-v-14329d3f=""
+                  >
+                    <!--[-->
+                    <div
+                      v-for="tech in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+                      class="slide"
+                      data-v-14329d3f=""
+                    >
+                      <a
+                        href="/modules/prismic"
+                        class="relative flex items-center justify-center bg-gray-800 h-[86px] w-[86px] rounded-md ring-1 ring-gray-200 hover:ring-0 dark:ring-0 mt-1"
+                        tabindex="-1"
+                        data-v-14329d3f=""
+                      >
+                        <div
+                          class="gradient-border gradient-border-dark block"
+                          data-v-14329d3f=""
+                        ></div>
+                        <div data-v-14329d3f="">
+                          <img
+                            src="https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/icons/prismic.png"
+                            alt="prismic"
+                            class="w-auto h-8 sm:h-12"
+                            loading="lazy"
+                            height="48"
+                            width="48"
+                          />
+                        </div>
+                      </a>
+                    </div>
+
+                    <!--]-->
+                  </div>
+                </div>
+                <div class="slider" data-v-14329d3f="">
+                  <div class="animation slide-track mb-8" data-v-14329d3f="">
+                    <div
+                      v-for="tech in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+                      class="slide"
+                      data-v-14329d3f=""
+                    >
+                      <a
+                        href="/modules/supabase"
+                        class="relative flex items-center justify-center bg-gray-800 h-[86px] w-[86px] rounded-md ring-1 ring-gray-200 hover:ring-0 dark:ring-0 mt-1"
+                        tabindex="-1"
+                        data-v-14329d3f=""
+                      >
+                        <div
+                          class="gradient-border gradient-border-dark block"
+                          data-v-14329d3f=""
+                        ></div>
+                        <div data-v-14329d3f="">
+                          <img
+                            src="https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/icons/supabase.png"
+                            alt="supabase"
+                            class="w-auto h-8 sm:h-12"
+                            loading="lazy"
+                            height="48"
+                            width="48"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -279,7 +401,7 @@
           <div class="w-full">
             <div class="flex items-center justify-between w-full">
               <div class="w-full flex items-center gap-4">
-                <span class="text-green-500 font-semibold text-lg">01.</span>
+                <span class="text-green-500 font-semibold text-lg">04.</span>
                 <span class="font-semibold text-white text-xl truncate"
                   >Take a look at the latest projects I’ve done</span
                 >
@@ -306,10 +428,17 @@
                 </a>
               </div>
             </div>
-            <div class="my-10">
-              <div class="grid grid-cols-2 gap-2">
+            <div
+              v-for="(project, index) in [1, 2, 3, 4, 5, 6]"
+              class="my-20"
+              :key="index"
+            >
+              <div :class="['grid grid-cols-2 gap-2']">
                 <div
-                  class="w-[120%] p-4 group relative flex items-center justify-center rounded-[4px] bg-gray-800"
+                  :class="[
+                    index % 2 === 0 ? 'order-1 w-[120%]' : 'order-2',
+                    ' order-2 p-4 group relative flex items-center justify-center rounded-[4px] bg-gray-800',
+                  ]"
                 >
                   <div
                     class="bg-gray-800 duration-500 group-hover:bg-opacity-10 transition-all cursor-pointer bg-opacity-60 absolute top-0 h-full w-full"
@@ -320,7 +449,12 @@
                   />
                 </div>
                 <div
-                  class="flex flex-col relative z-30 gap-4 justify-center items-end text-right"
+                  :class="[
+                    index % 2 === 0
+                      ? 'order-2 text-right items-end '
+                      : 'order-1 text-left items-start w-[120%] ',
+                    'flex flex-col relative z-30 gap-4 justify-center ',
+                  ]"
                 >
                   <p class="text-base font-medium text-green-500">
                     Featured Project
@@ -366,7 +500,7 @@
                 class="flex flex-col justify-center items-center gap-4 text-center"
               >
                 <div class="w-full flex justify-center items-center gap-4">
-                  <span class="text-green-500 font-semibold text-lg">05.</span>
+                  <span class="text-green-500 font-semibold text-lg">06.</span>
                   <span class="font-semibold text-green-500 text-lg truncate"
                     >What’s Next?</span
                   >
