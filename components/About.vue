@@ -53,7 +53,8 @@
         <a
           class="flex items-center font-medium gap-4 text-white"
           aria-label="See More About Me"
-          href="/about"
+          target="_blank"
+          href="/resume.pdf"
           ><span>Download my resume.</span
           ><svg
             width="24"
