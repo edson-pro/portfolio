@@ -1,12 +1,19 @@
 <template>
   <div class="w-full flex">
     <div class="h-screen">
-      <div class="bg-gray-900 h-full w-[600px] border-r border-gray-800">
+      <div
+        v-motion-slide-left
+        class="bg-gray-900 h-full w-[600px] border-r border-gray-800"
+      >
         <div
           class="py-10 px-10 h-full flex flex-col justify-between items-start"
         >
           <div>
-            <h1 data-text="I'm Ntwali Edson" class="intro__text text-white">
+            <h1
+              v-motion-slide-bottom
+              data-text="I'm Ntwali Edson"
+              class="intro__text text-white"
+            >
               <mark class="mark">I'm Ntwali Edson</mark>
             </h1>
             <h2
@@ -47,7 +54,7 @@
                 around the world.
               </p>
             </div>
-            <div class="pt-12">
+            <div v-motion-slide-visible-once-left class="pt-12">
               <div
                 class="py-3 cursor-pointer group flex items-center gap-4 text-white"
                 v-for="(link, index) in [
@@ -73,7 +80,10 @@
             </div>
           </div>
           <div>
-            <div class="flex items-center w-full pt-32">
+            <div
+              v-motion-slide-visible-once-bottom
+              class="flex items-center w-full pt-32"
+            >
               <div class="">
                 <img
                   alt="Ntwali edson 's headshot"
@@ -164,9 +174,9 @@
         </div>
       </div>
     </div>
-    <div class="h-screen w-full overflow-y-auto">
+    <div class="h-screen w-full overflow-y-auto overflow-x-hidden">
       <div class="px-10 h-screen py-28 w-full">
-        <div class="w-full">
+        <div v-motion-slide-visible-bottom class="w-full">
           <div class="w-full flex items-center gap-4">
             <span class="text-green-500 font-semibold text-lg">01.</span>
             <span class="font-semibold text-white text-xl truncate"
@@ -236,7 +246,7 @@
       </div>
       <div class="h-screen">
         <div class="px-10 h-screen py-28 w-full">
-          <div class="w-full">
+          <div v-motion-slide-visible-right class="w-full">
             <div class="w-full flex items-center gap-4">
               <span class="text-green-500 font-semibold text-lg">02.</span>
               <span class="font-semibold text-white text-xl truncate"
@@ -281,7 +291,7 @@
       </div>
       <div class="h-screen">
         <div class="px-10 h-screen py-28 w-full">
-          <div class="w-full">
+          <div v-motion-slide-visible-left class="w-full">
             <div class="w-full flex items-center gap-4">
               <span class="text-green-500 font-semibold text-lg">03.</span>
               <span class="font-semibold text-white text-xl truncate"
@@ -399,7 +409,10 @@
       <div class="h-auto">
         <div class="px-10 h-full py-28 w-full">
           <div class="w-full">
-            <div class="flex items-center justify-between w-full">
+            <div
+              v-motion-slide-visible-top
+              class="flex items-center justify-between w-full"
+            >
               <div class="w-full flex items-center gap-4">
                 <span class="text-green-500 font-semibold text-lg">04.</span>
                 <span class="font-semibold text-white text-xl truncate"
@@ -430,11 +443,12 @@
             </div>
             <div
               v-for="(project, index) in [1, 2, 3, 4, 5, 6]"
-              class="my-20"
+              class="my-36"
               :key="index"
             >
               <div :class="['grid grid-cols-2 gap-2']">
                 <div
+                  v-motion-slide-visible-right
                   :class="[
                     index % 2 === 0 ? 'order-1 w-[120%]' : 'order-2',
                     ' order-2 p-4 group relative flex items-center justify-center rounded-[4px] bg-gray-800',
@@ -449,6 +463,7 @@
                   />
                 </div>
                 <div
+                  v-motion-slide-visible-left
                   :class="[
                     index % 2 === 0
                       ? 'order-2 text-right items-end '
@@ -499,21 +514,31 @@
               <div
                 class="flex flex-col justify-center items-center gap-4 text-center"
               >
-                <div class="w-full flex justify-center items-center gap-4">
+                <div
+                  v-motion-slide-visible-bottom
+                  class="w-full flex justify-center items-center gap-4"
+                >
                   <span class="text-green-500 font-semibold text-lg">06.</span>
                   <span class="font-semibold text-green-500 text-lg truncate"
                     >What’s Next?</span
                   >
                 </div>
-                <h4 class="text-4xl mt-6 text-white font-semibold">
+                <h4
+                  v-motion-slide-visible-bottom
+                  class="text-4xl mt-6 text-white font-semibold"
+                >
                   Get In Touch
                 </h4>
-                <p class="text-lg text-gray-400 leading-8">
+                <p
+                  v-motion-slide-visible-bottom
+                  class="text-lg text-gray-400 leading-8"
+                >
                   Although I’m not currently looking for any new opportunities,
                   my inbox is always open. Whether you have a question or just
                   want to say hi, I’ll try my best to get back to you!
                 </p>
                 <button
+                  v-motion-slide-visible-bottom
                   class="px-6 my-4 py-3 border-green-500 text-green-500 cursor-pointer font-medium rounded-[3px] hover:bg-gray-800 bg-opacity-50 border bogr"
                 >
                   Say hello to me
@@ -524,6 +549,7 @@
           </div>
           <div>
             <div
+              v-motion-slide-visible-bottom
               class="flex items-center justify-center gap-2 text-gray-300 font-medium text-[17px]"
             >
               Designed & built by Edson<span class="icon has-white-text"
@@ -545,5 +571,3 @@
     </div>
   </div>
 </template>
-
-<script lang="ts" setup></script>
