@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-900 overflow-y-hidden;
+  @apply bg-gray-900 md:overflow-y-visible overflow-y-hidden;
 }
 
 html {
@@ -230,79 +230,35 @@ mark.mark {
   }
 
   to {
-    transform: translate(calc(-200px * 7));
+    transform: translate(calc(-150px * 7));
   }
 }
 
-.slider[data-v-14329d3f] {
-  height: 120px;
-  margin: auto;
-  position: relative;
-  width: 960px;
-}
-
-.slider[data-v-14329d3f]:after {
-  right: 0;
-  top: 0;
-  transform: rotate(180deg);
-}
-
-.slider[data-v-14329d3f]:before {
-  left: 0;
-  top: 0;
-}
-
-.animation[data-v-14329d3f] {
-  animation: scroll-14329d3f 30s linear infinite;
-}
-
-.slide-track[data-v-14329d3f]:hover {
-  animation-play-state: paused;
-}
-
-.slide-track:hover .slide[data-v-14329d3f] {
-  animation-play-state: running;
-}
-
-.animation-reverse[data-v-14329d3f] {
-  animation: scroll-14329d3f 30s linear infinite reverse;
-}
-
-.slider .slide-track[data-v-14329d3f] {
-  display: flex;
-  width: calc(200px * (7 * 2));
-}
-
-.slider .slide[data-v-14329d3f] {
-  height: 100px;
-  width: 200px;
-}
-
-.slide:hover .gradient-border[data-v-14329d3f] {
+.tech:hover .gradient-border {
   animation: gradient-rotate-14329d3f 5s linear 0s infinite reverse;
   opacity: 1;
   transition: all 0.3s linear;
 }
 
-.tag:hover .gradient-border[data-v-14329d3f] {
+.tag:hover .gradient-border {
   animation: gradient-rotate-14329d3f 5s linear 0s infinite reverse;
   opacity: 1;
   transition: all 0.3s linear;
 }
-.gradient-border[data-v-14329d3f] {
+.gradient-border {
   background-size: 600% 600%;
   border-radius: 4px;
-  height: calc(100% + 3px);
+  height: calc(100% + 2px);
   left: 0;
   opacity: 0;
   position: absolute;
   top: 0;
   transform: translate(-1px, -1px);
-  width: calc(100% + 3px);
+  width: calc(100% + 2px);
   z-index: -1;
 }
 
-.gradient-border-light[data-v-14329d3f] {
+.gradient-border-light {
   background: linear-gradient(
     var(--gradient-angle),
     #00dc82,
@@ -312,7 +268,7 @@ mark.mark {
   );
 }
 
-.gradient-border-dark[data-v-14329d3f] {
+.gradient-border-dark {
   background: linear-gradient(
     var(--gradient-angle),
     hsla(0, 0%, 100%, 0.5),
@@ -322,7 +278,7 @@ mark.mark {
   );
 }
 
-li:hover .gradient-border[data-v-14329d3f] {
+li:hover .gradient-border {
   animation: gradient-rotate-14329d3f 5s linear 0s infinite reverse;
   opacity: 1;
   transition: all 0.3s linear;
@@ -342,4 +298,8 @@ li:hover .gradient-border[data-v-14329d3f] {
   to {
     --gradient-angle: 0deg;
   }
+}
+
+.tagline {
+  @apply underline bg-gray-800 px-2 py-1 rounded-[3px] text-white;
 }
