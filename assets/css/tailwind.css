@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-900 md:overflow-y-visible overflow-y-hidden;
+  @apply bg-gray-900 md:overflow-y-scroll overflow-x-hidden overflow-y-hidden;
 }
 
 html {

@@ -10,14 +10,14 @@
           class="w-full section flex items-center gap-4"
         >
           <span class="text-green-500 font-semibold text-lg">03.</span>
-          <span class="font-semibold text-white text-xl truncate"
+          <span class="font-semibold md:text-base text-white text-xl truncate"
             >My Toolbox & Things I Can Do.</span
           >
           <span class="w-1/3 md:hidden bg-gray-700 h-[1px]"></span>
         </div>
         <p
           v-motion-slide-visible-right
-          class="text-lg text-gray-400 my-4 font-medium"
+          class="text-lg text-gray-400 md:text-sm my-4 font-medium"
         >
           The skills, tools and technologies I use to bring your products to
           life:
@@ -25,11 +25,11 @@
         <div class="my-6">
           <div class="overflow-hidden">
             <div
+              v-motion-slide-visible-bottom
               class="grid px-1 sm:grid-cols-5 md:grid-cols-9 my-8 grid-cols-9 gap-5"
             >
               <div
                 v-for="tech in frontends"
-                v-motion-slide-visible-bottom
                 class="tag relative z-30 flex items-center justify-center md:h-[56px] md:w-[56px] h-[86px] w-[86px] ring-1 ring-gray-200 hover:ring-0 dark:ring-0 mt-1"
               >
                 <div class="gradient-border gradient-border-dark"></div>
@@ -45,10 +45,12 @@
                 </div>
               </div>
             </div>
-            <div class="grid px-1 sm:grid-cols-5 my-8 grid-cols-8 gap-5">
+            <div
+              v-motion-slide-visible-bottom
+              class="grid px-1 sm:grid-cols-5 my-8 grid-cols-8 gap-5"
+            >
               <div
                 v-for="tech in backends"
-                v-motion-slide-visible-bottom
                 class="tag relative z-30 flex md:h-[56px] md:w-[56px] items-center justify-center h-[86px] w-[86px] ring-1 ring-gray-200 hover:ring-0 dark:ring-0 mt-1"
               >
                 <div class="gradient-border gradient-border-dark"></div>
@@ -64,10 +66,12 @@
                 </div>
               </div>
             </div>
-            <div class="grid my-8 sm:grid-cols-5 grid-cols-9 px-1 gap-5">
+            <div
+              v-motion-slide-visible-bottom
+              class="grid my-8 sm:grid-cols-5 grid-cols-9 px-1 gap-5"
+            >
               <div
                 v-for="tech in apis"
-                v-motion-slide-visible-bottom
                 class="tag relative z-30 flex md:h-[56px] md:w-[56px] items-center justify-center h-[86px] w-[86px] ring-1 ring-gray-200 hover:ring-0 dark:ring-0 mt-1"
               >
                 <div class="gradient-border gradient-border-dark"></div>

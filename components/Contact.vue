@@ -1,6 +1,8 @@
 <template>
   <div class="h-screen">
-    <div class="px-10 flex flex-col justify-between h-full pt-28 pb-10 w-full">
+    <div
+      class="px-10 flex flex-col justify-between h-full md:p-10 pt-28 pb-10 w-full"
+    >
       <div class="w-full">
         <div class="flex items-center max-w-xl mx-auto justify-between w-full">
           <div
@@ -18,7 +20,7 @@
             <h4
               id="contact"
               v-motion-slide-visible-bottom
-              class="text-4xl mt-6 section text-white font-semibold"
+              class="text-4xl md:text-2xl mt-6 section text-white font-semibold"
             >
               Get In Touch.
             </h4>
@@ -41,9 +43,9 @@
         </div>
         <div class="my-10"></div>
       </div>
-      <div v-motion-slide-visible-bottom class="my-12">
+      <div v-motion-slide-visible-bottom class="py-12">
         <div
-          class="flex items-center justify-center gap-2 text-gray-300 font-medium text-[17px]"
+          class="flex items-center truncate justify-center gap-2 text-gray-300 font-medium text-[17px]"
         >
           Designed & built by Edson<span class="icon has-white-text"
             ><svg

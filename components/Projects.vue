@@ -9,10 +9,10 @@
             class="section w-full flex items-center gap-4"
           >
             <span class="text-green-500 font-semibold text-lg">04.</span>
-            <span class="font-semibold text-white text-xl truncate"
+            <span class="font-semibold text-white text-xl md:text-base truncate"
               >Take a look at the latest projects I’ve done</span
             >
-            <span class="w-1/3 bg-gray-700 h-[1px]"></span>
+            <span class="w-1/3 bg-gray-700 h-[1px] md:hidden"></span>
           </div>
         </div>
         <div
@@ -24,7 +24,7 @@
             <a
               :href="project.link"
               target="_blank"
-              v-motion-slide-visible-right
+              v-motion-slide-visible-left
               :class="[
                 index % 2 === 0
                   ? 'order-1 w-[120%] md:w-full'

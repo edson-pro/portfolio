@@ -1,5 +1,5 @@
 <template>
-  <div class="px-10 md:px-5 h-screen md:h-auto md:py-10 py-28 w-full">
+  <div class="px-10 md:px-5 h-screen md:h-auto md:py-10 py-16 w-full">
     <div v-motion-slide-visible-bottom class="w-full">
       <div id="about" class="section w-full flex items-center gap-4">
         <span class="text-green-500 font-semibold text-lg">01.</span>
@@ -29,7 +29,7 @@
       </div>
       <div class="mt-10">
         <h4 class="font-semibold text-white text-xl truncate">Personal Info</h4>
-        <div class="grid max-w-xl my-6 grid-cols-2 gap-4">
+        <div class="grid md:grid-cols-1 max-w-xl my-6 grid-cols-2 gap-4">
           <div
             class="flex items-center gap-3"
             v-for="info in [

@@ -40,7 +40,7 @@
               stack out there.
             </p>
           </div>
-          <div v-motion-slide-visible-once-left class="pt-12">
+          <div v-motion-slide-visible-once-left class="pt-12 md:hidden">
             <div
               @click="emits('scrollTo', link)"
               class="py-3 cursor-pointer group flex items-center gap-4 text-white"
