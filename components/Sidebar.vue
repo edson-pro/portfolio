@@ -5,7 +5,7 @@
       class="bg-gray-900 h-full md:w-full md:border-none w-[600px] border-r border-gray-800"
     >
       <div
-        class="py-10 md:px-5 md:py-6 px-10 h-full flex flex-col justify-between items-start"
+        class="pb-5 pt-7 md:px-5 md:py-6 px-10 h-full flex flex-col justify-between items-start"
       >
         <div>
           <h1
@@ -28,7 +28,7 @@
               software engineer based in
 
               <a class="tagline">Rwanda</a>
-              focused in innovating special software to solve a problem while we
+              focused in innovating special software to solve a problem while i
               work.
             </p>
             <p class="mt-3">
@@ -79,7 +79,7 @@
         <div>
           <div
             v-motion-slide-visible-once-bottom
-            class="flex items-center w-full md:pt-10 pt-32"
+            class="flex items-center w-full md:pt-10 pt-12"
           >
             <div class="">
               <img

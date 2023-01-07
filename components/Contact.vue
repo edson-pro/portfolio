@@ -20,22 +20,23 @@
               v-motion-slide-visible-bottom
               class="text-4xl mt-6 section text-white font-semibold"
             >
-              Get In Touch
+              Get In Touch.
             </h4>
             <p
               v-motion-slide-visible-bottom
               class="text-lg text-gray-400 leading-8"
             >
-              Although I’m not currently looking for any new opportunities, my
-              inbox is always open. Whether you have a question or just want to
-              say hi, I’ll try my best to get back to you!
+              The best way to reach me is by clicking the botton bellow. Whether
+              you have a question or just want to say hi, I’ll try my best to
+              get back to you!
             </p>
-            <button
+            <a
+              href="mailto:ntwaliedson9@gmail.com"
               v-motion-slide-visible-bottom
               class="px-6 my-4 py-3 border-green-500 text-green-500 cursor-pointer font-medium rounded-[3px] hover:bg-gray-800 bg-opacity-50 border bogr"
             >
               Say hello to me
-            </button>
+            </a>
           </div>
         </div>
         <div class="my-10"></div>

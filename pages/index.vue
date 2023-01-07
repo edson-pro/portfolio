@@ -6,11 +6,13 @@
       id="scroll"
       class="h-screen w-full md:h-fit md:overflow-hidden overflow-y-auto overflow-x-hidden"
     >
-      <About />
-      <Skills />
-      <Techs />
-      <Projects />
-      <Contact />
+      <div class="max-w-5xl mx-auto">
+        <About />
+        <Skills />
+        <Techs />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   </div>
 </template>
