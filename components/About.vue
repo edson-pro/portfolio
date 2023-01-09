@@ -1,6 +1,6 @@
 <template>
   <div class="px-10 md:px-5 h-screen md:h-auto md:py-10 py-16 w-full">
-    <div v-motion-slide-visible-bottom class="w-full">
+    <div v-motion-slide-visible-top class="w-full">
       <div id="about" class="section w-full flex items-center gap-4">
         <span class="text-green-500 font-semibold text-lg">01.</span>
         <span class="font-semibold text-white text-xl truncate">About me</span>
@@ -36,7 +36,7 @@
               { key: 'First Name', value: 'Ntwali' },
               { key: 'Last Name', value: 'Edson' },
               { key: 'Age', value: '22' },
-              { key: 'Phone', value: '(+25) 0788 209 629' },
+              { key: 'Phone', value: '(+250) 788 209 629' },
               { key: 'Email', value: 'ntwaliedson9@gmai.com' },
             ]"
           >
@@ -49,7 +49,7 @@
           </div>
         </div>
       </div>
-      <div class="my-12">
+      <div class="py-12">
         <a
           class="flex items-center font-medium gap-4 text-white"
           aria-label="See More About Me"
