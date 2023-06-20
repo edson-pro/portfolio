@@ -7,8 +7,15 @@
 
 <nav>
   <div class="max-w-3xl mx-auto px-2 py-2 flex items-center justify-between">
-    <a href="">
-      <span class="font-bold text-xl text-indigo-500">E.D</span>
+    <a
+      href=""
+      class="border-[2px] border-indigo-500 rounded-full overflow-hidden"
+    >
+      <img
+        class="p-[2px] rounded-full"
+        src="https://www.adebayosegun.com/_next/image?url=%2Fstatic%2Fimages%2Fsegun-adebayo-headshot.jpg&w=32&q=75"
+        alt=""
+      />
     </a>
 
     <ul class="flex items-center gap-6">

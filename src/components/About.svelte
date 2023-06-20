@@ -12,7 +12,7 @@
           /></a
         >
         <div
-          class="block w-full [3px] h-full transition-all delay-100 absolute group-hover:top-3 group-hover:left-3 -z-20 border-2 rounded-sm top-6 left-6"
+          class="block w-full [3px] h-full transition-all delay-100 absolute group-hover:top-3 group-hover:left-3 -z-20 dark:border-slate-700 border-2 rounded-sm top-6 left-6"
         />
       </div>
     </div>
