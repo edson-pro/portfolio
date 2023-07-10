@@ -1,17 +1,17 @@
 <script lang="ts"></script>
 
-<div class="max-w-3xl py-10 mx-auto px-3">
+<div class="max-w-3xl py-10 md:py-6 mx-auto px-3">
   <div>
-    <h1 class="my-4 font-bold dark:text-slate-100 text-2xl">
+    <h1 class="my-4 font-bold dark:text-slate-100 text-3xl">
       <span class="mark">I'M Ntwali Edson</span>
     </h1>
     <p
-      class="font-medium mt-5 text-sm dark:text-slate-200 text-slate-500 capitalize"
+      class="font-medium mt-5 text-base dark:text-slate-200 text-slate-500 capitalize"
     >
       Full stack software developer.
     </p>
     <div
-      class="my-4 py-3 text-[14px] leading-7 dark:text-slate-400 text-slate-700"
+      class="my-6 py-3 text-[14.5px] leading-10 dark:text-slate-300 text-slate-600"
     >
       <p class="mb-2">
         Hi There! 👋, I' am <a
@@ -30,10 +30,10 @@
       </p>
     </div>
     <a
-      class="flex items-center text-[14px] dark:text-slate-200 text-slate-600 capitalize gap-3"
+      class="flex items-center text-[15px] hover:text-indigo-500 dark:text-slate-200 text-slate-600 capitalize gap-3"
       href="#about"
     >
-      <span> See More About Me</span>
+      <span> Download Resume.</span>
 
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@
         /></svg
       >
     </a>
-    <div class="flex items-center my-8 gap-8">
+    <div class="flex items-center pt-3 my-8 gap-8">
       <a
         target="_blank"
         rel="noopener noreferrer"

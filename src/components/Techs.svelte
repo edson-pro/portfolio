@@ -1,16 +1,18 @@
-<section class="max-w-3xl mx-auto px-2">
+<section class="max-w-3xl mx-auto px-4">
   <div class="css-13wem7d">
-    <h2 class="font-semibold dark:text-white text-base my-3">
+    <h2 class="font-semibold dark:text-white text-lg my-3">
       Tools &amp; Softwares
     </h2>
-    <p class="text-sm leading-7 font-medium dark:text-slate-400 text-slate-600">
+    <p
+      class="text-[15px] leading-9 font-medium dark:text-slate-400 text-slate-600"
+    >
       Over the years, I had the opportunity to work with various software, tools
       and frameworks. Here are some of them:
     </p>
   </div>
   <div class="py-6">
     <ul
-      class="flex font-medium text-orange-400 text-sm items-center flex-wrap gap-5"
+      class="flex font-medium text-orange-400 text-[14.5px] items-center flex-wrap gap-5"
     >
       <li>React</li>
       <li>TypeScript</li>

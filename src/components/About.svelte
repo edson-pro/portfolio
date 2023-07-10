@@ -1,11 +1,13 @@
-<div class="grid grid-cols-5 max-w-3xl py-16 mx-auto px-2 gap-10">
+<div
+  class="grid grid-cols-5 md:grid-cols-1 max-w-3xl py-16 mx-auto px-3 gap-10"
+>
   <div class="col-span-2 relative">
-    <div class="w-fit hidden md:block">
+    <div class="w-fit hidden- md:block">
       <div class="relative cursor-pointer group">
         <a href="#" target="_blank"
           ><img
-            alt="Ntwali edson - Experienced Software deleveloper."
-            src="https://s1.r29static.com/bin/entry/1d7/x,80/2050744/image.jpg"
+            alt="Ntwali edson - Software deleveloper."
+            src="/images/profile.jpg"
             width="220"
             height="220"
             class="rounded-[3px] z-50 transition-all delay-100 grayscale group-hover:grayscale-0"
@@ -20,12 +22,13 @@
   <div class="col-span-3 w-full">
     <div class="w-full">
       <div id="about" class="section w-full text-sm flex items-center gap-4">
-        <span class="text-indigo-500 font-semibold text-sm">01.</span><span
-          class="font-semibold text-sm text-indigo-500 truncate">About me</span
+        <span class="text-indigo-500 font-semibold text-base">01.</span><span
+          class="font-semibold text-base text-indigo-500 truncate"
+          >About me</span
         ><span class="w-1/3 bg-gray-100 dark:bg-slate-800 h-[1px]" />
       </div>
       <div
-        class="space-y-3 text-[13px] max-w-3xl font-medium dark:text-slate-300 text-slate-500 leading-9 my-6"
+        class="space-y-3 text-[14px] max-w-3xl font-medium dark:text-slate-400 text-slate-500 leading-10 my-6"
       >
         <p class="mt-3">
           Hello again! My name is Edson Ntwali and I am curiosity-driven full
@@ -34,33 +37,37 @@
         </p>
       </div>
       <div class="mt-5">
-        <div class="grid max-w-xl my-6 grid-cols-2 gap-6">
+        <div class="grid max-w-xl sm:grid-cols-1 my-6 grid-cols-2 gap-6">
           <div class="flex items-center gap-3">
             <span
-              class="text-[13px] font-semibold text-slate-700 dark:text-slate-200"
+              class="text-[14px] font-semibold text-slate-700 dark:text-slate-200"
               >First Name:</span
-            ><span class="text-slate-400 text-[13px] font-medium">Ntwali</span>
+            ><span class="text-slate-400 text-[14px] font-medium">Ntwali</span>
           </div>
           <div class="flex items-center gap-3">
             <span
-              class="text-[13px] font-semibold text-slate-700 dark:text-slate-200"
+              class="text-[14px] font-semibold text-slate-700 dark:text-slate-200"
               >Last Name:</span
-            ><span class="text-slate-400 text-[13px] font-medium">Edson</span>
+            ><span class="text-slate-400 text-[14px] font-medium">Edson</span>
           </div>
           <div class="flex items-center gap-3">
             <span
-              class="text-[13px] font-semibold text-slate-700 dark:text-slate-200"
+              class="text-[14px] font-semibold text-slate-700 dark:text-slate-200"
               >Phone:</span
-            ><span class="text-slate-400 text-[13px] font-medium"
-              >(+250) 788 209 629</span
+            ><a
+              href="tell:+250788209629"
+              class="text-slate-400 text-[14px] font-medium"
+              >(+250) 788 209 629</a
             >
           </div>
           <div class="flex items-center gap-3">
             <span
-              class="text-[13px] font-semibold text-slate-700 dark:text-slate-200"
+              class="text-[14px] font-semibold text-slate-700 dark:text-slate-200"
               >Email:</span
-            ><span class="text-slate-400 text-[13px] font-medium"
-              >ntwaliedson9@gmai.com</span
+            ><a
+              href="mailto:ntwaliedson9@gmai.com"
+              class="text-slate-400 hover:underline text-[14px] font-medium"
+              >ntwaliedson9@gmai.com</a
             >
           </div>
           <!--]-->

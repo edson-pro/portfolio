@@ -6,14 +6,16 @@
 </script>
 
 <nav>
-  <div class="max-w-3xl mx-auto px-2 py-2 flex items-center justify-between">
+  <div class="max-w-3xl mx-auto px-2 py-4 flex items-center justify-between">
     <a
       href=""
       class="border-[2px] border-indigo-500 rounded-full overflow-hidden"
     >
       <img
-        class="p-[2px] rounded-full"
-        src="https://www.adebayosegun.com/_next/image?url=%2Fstatic%2Fimages%2Fsegun-adebayo-headshot.jpg&w=32&q=75"
+        height="38"
+        width="38"
+        class="p-[2px] object-cover rounded-full"
+        src="/images/profile.jpg"
         alt=""
       />
     </a>
@@ -22,14 +24,14 @@
       {#each ["about", "experience", "projects", "contact"] as link}
         <li>
           <a
-            class="font-medium py-3 flex dark:text-slate-200 text-slate-800 text-sm capitalize"
+            class="font-medium py-3 sm:hidden flex dark:text-slate-200 text-slate-800 text-base capitalize"
             href={`#${link}`}
           >
             {link}
           </a>
         </li>
       {/each}
-      <li>
+      <li class="md:pr-1">
         <!-- svelte-ignore missing-declaration -->
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-missing-attribute -->
@@ -41,8 +43,8 @@
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
+            width="18"
+            height="18"
             class="dark:fill-white transition-all {currentTheme === 'dark'
               ? 'rotate-180'
               : 'rotate-0'}"

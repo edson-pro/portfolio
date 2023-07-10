@@ -2,7 +2,7 @@
 
 <footer>
   <div
-    class="flex items-center truncate justify-center my-6 gap-2 dark:text-slate-300 text-gray-600 font-medium text-[13px]"
+    class="flex items-center truncate justify-center py-6 gap-2 dark:text-slate-300 text-gray-600 font-medium text-[14px]"
   >
     Designed &amp; built by Edson<span class="icon has-white-text"
       ><svg
