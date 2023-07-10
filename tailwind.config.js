@@ -1,31 +1,27 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
-    "./nuxt.config.{js,ts}",
-  ],
+export default {
+  darkMode: "class",
+  content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
+    fontFamily: {
+      sans: ['Poppins', 'sans-serif'],
+    },
     extend: {
       fontFamily: {
-        sans: ["Spacegrotesk", "sans-serif"],
+        sans: ["Poppins", "sans-serif"],
       },
-    },
-    screens: {
-      xl: { max: "1279px" },
-      // => @media (max-width: 1279px) { ... }
-
-      lg: { max: "1023px" },
-      // => @media (max-width: 1023px) { ... }
-
-      md: { max: "767px" },
-      // => @media (max-width: 767px) { ... }
-
-      sm: { max: "639px" },
-      // => @media (max-width: 639px) { ... }
+      colors: {
+        primary: "#5662f6",
+        primaryLight: "#7d86f7",
+      },
+      screens: {
+        xl: {max: "1279px"},
+        lg: {max: "1023px"},
+        md: {max: "767px"},
+        sm: {max: "639px"},
+      },
     },
   },
   plugins: [],
-};
+}
+
